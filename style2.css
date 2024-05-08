@@ -1,0 +1,85 @@
+  *{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.client{
+    width: 100%;
+    min-height: 100vh;
+    border: 0px solid black;
+    margin-bottom: 10%;
+    align-items: center;
+    background-image: url(girl.jpg);
+    filter: blur(0.5px);
+    margin-top: 20px;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+   padding: 150px;
+     border: 0px solid black;
+     z-index: -1;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    border: 0px solid black;
+    margin-bottom: 10%;
+    align-items: center;
+}
+.box{
+
+    border: 1px solid black;
+    display: inline-block;
+    min-height: 40vh;
+    margin-top: 5%;
+    padding: 20px;
+    width: 350px;
+    flex-wrap: wrap;
+    background-color: violet;
+    margin-right: 4%;
+}
+.logo{
+    width: 250px;
+}
+.chatter{
+    width: 100%;
+    margin-top: 3%
+}
+
+.clientsay{
+text-decoration: none;
+width: 300px;
+border: 0px solid black;
+display: inline-block;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 50px;
+
+}
+.client h3{
+    font-size: 60px;
+    z-index: -1;
+}
+.client p{
+    font-size: 20px;
+    z-index: -1;
+}
+.clientsay h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.footer{
+    border: 1px solid black;
+    background-color: gray;
+    min-height: 20vh;
+}
+.foot{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    margin-right: 60%;
+    margin-bottom:20px ;
+}
+
+.style{
+    border: 0px solid black;
+   align-items: center;
+    width: 400px;
+   min-height: 200px;
+   padding: 30px;
+   margin-top: 15%;
+   margin-left: 60px;
+}
+.style .text{
+    padding: 20px;
+    font-weight: 300px;
+    font-style: bold;
+}
+.feature{
+    width: 450px;
+    min-height: 110px;
+    position: absolute;
+    bottom: 40px;
+    float: center;
+    right: 40%;
+}
+.login-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    padding: 14px 40px;
+    background-image: linear-gradient(45deg, rgb(253, 18, 18),violet,pink);
+    display: inline-block;
+    font-size: 14px;
+}
+.login-btn:hover{
+    border-top-right-radius: 30px;
+}
+.content p{
+    font-size:30px;
+    padding: 60px;
+}
+.content h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    border-style: double;
+    background-color: navy;
+    color: white;
+}
+.content{
+    border: 0px solid black;
+}
+.layout{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.layout1{
+        border: 0px solid black;
+        padding: 20px;
+        margin-top: 20px;
+}
+.container{
+     border: 1px solid black;
+     background-color: navy;
+    color: white;
+    min-height: 130px;
+    width: 100%;
+padding: 50px;
+}
